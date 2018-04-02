@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "188644712618",
+    "firebase_url": "https://dilchat-fadf3.firebaseio.com",
+    "project_id": "dilchat-fadf3",
+    "storage_bucket": "dilchat-fadf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188644712618:android:810ac4d8299a74ab",
+        "android_client_info": {
+          "package_name": "com.example.kasun.dilchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188644712618-42hhbp7psp8qppjliv11hr84k78rogue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kasun.dilchat",
+            "certificate_hash": "80eb1ea91e0aaf27698cd72d9e56436e335f60ea"
+          }
+        },
+        {
+          "client_id": "188644712618-v6oi0brpt016ff1rk1jh298418q2u8qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kasun.dilchat",
+            "certificate_hash": "e2fa2acb09729f1b97a4e7137f8703405a5e9e90"
+          }
+        },
+        {
+          "client_id": "188644712618-160l269q3jmrg6fiskd3m9p3832v6uo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWUCMv98Sc2SQoPcSnddaSCvPsMFlbtFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188644712618-160l269q3jmrg6fiskd3m9p3832v6uo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

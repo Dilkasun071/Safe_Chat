@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kasun.dilchat.RegActivity"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/reg_display"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_email"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/reg_email"
+        android:layout_marginTop="122dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_display"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <include layout="@layout/app_bar_layout" android:id="@+id/reg_app_bar"/>
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reg_email"
+        android:layout_alignStart="@+id/reg_email"
+        android:layout_below="@+id/reg_email"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/reg_create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reg_pass"
+        android:layout_alignRight="@+id/reg_pass"
+        android:layout_below="@+id/reg_pass"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:text="Create" />
+</RelativeLayout>

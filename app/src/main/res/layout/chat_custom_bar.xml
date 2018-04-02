@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+      <ImageView
+        android:id="@+id/chat_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/de" />
+
+    <TextView
+        android:id="@+id/chat_disname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/chat_profile"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Display Name"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/chat_lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/chat_profile"
+        android:layout_alignLeft="@+id/chat_disname"
+        android:layout_alignStart="@+id/chat_disname"
+        android:text="Last Seen"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+</RelativeLayout>
