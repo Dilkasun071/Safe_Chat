@@ -34,6 +34,7 @@
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="148dp" />
     <include layout="@layout/app_bar_layout" android:id="@+id/reg_app_bar"/>
+
     <EditText
         android:id="@+id/reg_pass"
         android:layout_width="344dp"
@@ -45,6 +46,9 @@
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPersonName"
+        android:password="true"
+        android:textAllCaps="true"
+        android:textIsSelectable="true"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="204dp" />
 

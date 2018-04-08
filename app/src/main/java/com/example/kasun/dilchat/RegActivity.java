@@ -22,6 +22,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class RegActivity extends AppCompatActivity {
@@ -36,6 +38,12 @@ public class RegActivity extends AppCompatActivity {
     private ProgressDialog mprogressbar;
     //Realtime Firebase Database
     private DatabaseReference mDatabase;
+    public static boolean isEmailValid(String email) {
+        String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+        Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,12 +74,31 @@ public class RegActivity extends AppCompatActivity {
                 String username = muser.getText().toString();
                 String email = memail.getText().toString();
                 String pass = mpass.getText().toString();
+
+                mpass.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                    @Override
+                    public void onFocusChange(View v, boolean hasFocus) {
+                        if (hasFocus) {
+                            if (mpass.getText().toString().trim().length() < 6) {
+                                mpass.setError("Password Should Be More Than 6 Characters");
+                                //Toast.makeText(RegActivity.this, "Password Should Be More Than 6 Characters", Toast.LENGTH_SHORT);
+                            }
+                        }
+                    }
+                });
+
                 //progressbar
                 if(!TextUtils.isEmpty(username) || !TextUtils.isEmpty(email) || !TextUtils.isEmpty(pass)){
-                    mprogressbar.setTitle("Registering User");
-                    mprogressbar.setMessage("Please Wait");
-                    mprogressbar.setCanceledOnTouchOutside(false);
-                    mprogressbar.show();
+                    if(mpass.length() < 6){
+                        mpass.setError("Password Should Be More Than 6 Characters");
+                    }else if(!isEmailValid(memail.toString())){
+                        memail.setError("Enter The Vaild Email");
+                    }else{
+                        mprogressbar.setTitle("Registering User");
+                        mprogressbar.setMessage("Please Wait");
+                        mprogressbar.setCanceledOnTouchOutside(false);
+                        mprogressbar.show();
+                    }
                     //pass Data into register_user method
                     register_user(username,email,pass);
                 }
@@ -117,6 +144,7 @@ public class RegActivity extends AppCompatActivity {
                         }
                     });
                 }else{
+
                     //Then Progress Bar Hide
                     mprogressbar.hide();
                     Toast.makeText(RegActivity.this,"You Got Some Error",Toast.LENGTH_LONG);

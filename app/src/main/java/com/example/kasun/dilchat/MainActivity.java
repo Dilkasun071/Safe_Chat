@@ -65,13 +65,13 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position){
+                //case 0:
+                //    requestFragment reqf = new requestFragment();
+                //    return reqf;
                 case 0:
-                    requestFragment reqf = new requestFragment();
-                    return reqf;
-                case 1:
                     chatFragment reqf1 = new chatFragment();
                     return reqf1;
-                case 2:
+                case 1:
                     userFragment reqf2 = new userFragment();
                     return reqf2;
                 default:
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public int getCount() {
-            return 3;
+            return 2;
         }
     }
 
