@@ -56,7 +56,6 @@ public class ProfileActivity extends AppCompatActivity {
         mProfileImage = (ImageView)findViewById(R.id.mProfileImage);
         sendReq = (Button)findViewById(R.id.profile_request);
         delReq = (Button)findViewById(R.id.profile_decline);
-
         //for request
         currentState = "not_friend";
         //Database Reference
@@ -87,17 +86,16 @@ public class ProfileActivity extends AppCompatActivity {
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(dataSnapshot.hasChild(user_id)){
                             String req_type = dataSnapshot.child(user_id).child("request_type").getValue().toString();
-
                             if(req_type.equals("recieved")){
                                 currentState = "req_recieved";
                                 sendReq.setText("Accept Friend Request");
-                                delReq.setVisibility(View.VISIBLE);
-                                delReq.setEnabled(true);
+                                //delReq.setVisibility(View.VISIBLE);
+                                //delReq.setEnabled(true);
                             }else if(req_type.equals("sent")){
                                 currentState = "req_sent";
                                 sendReq.setText("Cancel Friend Request");
-                                delReq.setVisibility(View.INVISIBLE);
-                                delReq.setEnabled(false);
+                                //delReq.setVisibility(View.INVISIBLE);
+                                //delReq.setEnabled(false);
                             }
                         }else{
                             mDatabaseRefernece.child(mFirebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -106,8 +104,8 @@ public class ProfileActivity extends AppCompatActivity {
                                     if(dataSnapshot.hasChild(user_id)){
                                         currentState = "friend";
                                         sendReq.setText("Unfriend This Person");
-                                        delReq.setVisibility(View.INVISIBLE);
-                                        delReq.setEnabled(false);
+                                        //delReq.setVisibility(View.INVISIBLE);
+                                        //delReq.setEnabled(false);
                                     }
                                     mprogressbar.dismiss();
                                 }

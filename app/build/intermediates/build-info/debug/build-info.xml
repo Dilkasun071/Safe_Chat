@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.1.0"
-    timestamp="1523214748814"
+    timestamp="1523335130519"
     token="2914657471880113528"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,15 +23,31 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1523207357756"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="1523332912506"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -43,22 +59,10 @@
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -67,16 +71,16 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1523214624729"
+        timestamp="1523335075650"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -88,27 +92,22 @@
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1523335130519"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1523214694630"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/dilkasun071/Documents/DILChat2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1523214748814"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -336,6 +336,10 @@
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/anim/tooltip_exit.xml"
     },
     {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable_app_icon.gif.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/drawable/app_icon.gif"
+    },
+    {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
@@ -666,6 +670,10 @@
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
@@ -1904,6 +1912,10 @@
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -1942,6 +1954,10 @@
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -2068,6 +2084,10 @@
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat",
         "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/color-v23/abc_tint_default.xml"
     },
@@ -2102,6 +2122,10 @@
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/home/dilkasun071/Documents/DILChat2/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dilkasun071/Documents/DILChat2/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",

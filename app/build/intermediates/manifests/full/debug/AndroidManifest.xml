@@ -43,7 +43,7 @@
         <activity android:name="com.example.kasun.dilchat.LoginActivity" />
         <activity
             android:name="com.example.kasun.dilchat.MainActivity"
-            android:label="@string/title_activity_main"
+            android:label="Safe Chat"
             android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

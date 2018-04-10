@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kasun.dilchat.StartActivity"
-    android:background="@color/colorPrimary">
+    android:background="#279d73ea"
+    tools:context="com.example.kasun.dilchat.StartActivity">
 
     <Button
         android:id="@+id/start_reg_btn"
@@ -14,8 +14,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="176dp"
-        android:text="Need A New Account"
-        tools:background="@android:color/background_light" />
+        android:background="@android:color/holo_red_dark"
+        android:text="Need A New Account" />
 
     <TextView
         android:id="@+id/start_display"
@@ -24,8 +24,8 @@
         android:layout_above="@+id/start_already_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="134dp"
-        android:text="Welcome  to DIL Chat App"
-        android:textColor="@android:color/background_light"
+        android:text="Welcome  to SAFE Chat App"
+        android:textColor="@android:color/background_dark"
         android:textSize="24sp" />
 
     <Button
@@ -35,6 +35,17 @@
         android:layout_alignBottom="@+id/start_reg_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="66dp"
-        android:text="Already Have A Account"
-        android:onClick="login"/>
+        android:background="@android:color/holo_green_light"
+        android:onClick="login"
+        android:text="Already Have A Account" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="12dp"
+        android:text="Developed By Kdil" />
 </RelativeLayout>
