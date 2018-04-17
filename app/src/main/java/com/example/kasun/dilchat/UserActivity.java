@@ -44,7 +44,6 @@ public class UserActivity extends AppCompatActivity {
         String mcurrent = fb.getCurrentUser().getUid();
         //Database Reference
         mUserDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
-        mUserDatabase1 = FirebaseDatabase.getInstance().getReference().child("Users");
         //Recycle View
         mUserList = (RecyclerView)findViewById(R.id.user_app_list);
         mUserList.setHasFixedSize(true);
@@ -62,29 +61,26 @@ public class UserActivity extends AppCompatActivity {
         //Adapter
         FirebaseRecyclerAdapter<Users,UsersViewHolder>firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Users, UsersViewHolder>(
                 Users.class,
-                R.layout.users_single_layout,
+                R.layout.users_single,
                 UsersViewHolder.class,
-                mUserDatabase1
+                mUserDatabase
         ) {
             @Override
             protected void populateViewHolder(final UsersViewHolder viewHolder, Users model, int position) {
                 viewHolder.setName(model.getName());
-
                 viewHolder.setStatus(model.getStatus());
+                viewHolder.setUserImage(model.getThumb(),getApplicationContext());
                 final String list_user_id = getRef(position).getKey();
-                mUserDatabase1.child(list_user_id).addValueEventListener(new ValueEventListener() {
+                mUserDatabase.child(list_user_id).addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String userThumb = dataSnapshot.child("thumb_image").getValue().toString();
-                        viewHolder.setUserImage(userThumb,getApplicationContext());
-                        final String userName = dataSnapshot.child("name").getValue().toString();
-                        viewHolder.setName(userName);
+                        String userThumb  = dataSnapshot.child("thumb_image").getValue().toString();
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {}
                 });
-                //viewHolder.setThumb(model.getThumb(),getApplicationContext());
 
+                //viewHolder.setUserImage(userThumb,getApplicationContext());
                 final String user_id = getRef(position).getKey();
                 //Click and Go Profile
                 viewHolder.mView.setOnClickListener(new View.OnClickListener() {
@@ -115,9 +111,14 @@ public class UserActivity extends AppCompatActivity {
             mUserNameView.setText(status);
         }
 
-        public void setUserImage(String userThumb, Context ctx) {
+        public void s1etUserImage(String userThumb, Context ctx) {
             ImageView im = (ImageView)mView.findViewById(R.id.user_imageid);
             Picasso.with(ctx).load(userThumb).placeholder(R.drawable.de).into(im);
+        }
+
+        public void setUserImage(String thumb,Context ctx) {
+            ImageView im = (ImageView)mView.findViewById(R.id.imageView3);
+            Picasso.with(ctx).load(thumb).placeholder(R.drawable.de).into(im);
         }
     }
 }

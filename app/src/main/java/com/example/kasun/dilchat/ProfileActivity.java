@@ -68,10 +68,12 @@ public class ProfileActivity extends AppCompatActivity {
         mprogressbar.setTitle("Loading User Data");
         mprogressbar.setMessage("Please Wait");
         mprogressbar.show();
+
         //Add data
         mUserDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+
                 String Sname = dataSnapshot.child("name").getValue().toString();
                 String Sstatus = dataSnapshot.child("status").getValue().toString();
                 final String Simg = dataSnapshot.child("image").getValue().toString();
@@ -89,13 +91,9 @@ public class ProfileActivity extends AppCompatActivity {
                             if(req_type.equals("recieved")){
                                 currentState = "req_recieved";
                                 sendReq.setText("Accept Friend Request");
-                                //delReq.setVisibility(View.VISIBLE);
-                                //delReq.setEnabled(true);
                             }else if(req_type.equals("sent")){
                                 currentState = "req_sent";
                                 sendReq.setText("Cancel Friend Request");
-                                //delReq.setVisibility(View.INVISIBLE);
-                                //delReq.setEnabled(false);
                             }
                         }else{
                             mDatabaseRefernece.child(mFirebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -104,8 +102,6 @@ public class ProfileActivity extends AppCompatActivity {
                                     if(dataSnapshot.hasChild(user_id)){
                                         currentState = "friend";
                                         sendReq.setText("Unfriend This Person");
-                                        //delReq.setVisibility(View.INVISIBLE);
-                                        //delReq.setEnabled(false);
                                     }
                                     mprogressbar.dismiss();
                                 }
@@ -127,6 +123,7 @@ public class ProfileActivity extends AppCompatActivity {
             }
 
             @Override
+
             public void onCancelled(DatabaseError databaseError) {
 
             }
@@ -156,12 +153,8 @@ public class ProfileActivity extends AppCompatActivity {
                                             public void onSuccess(Void aVoid) {
                                                 currentState = "req_sent";
                                                 sendReq.setText("Cancel Friend Request");
-                                                //Toast.makeText(ProfileActivity.this,"Request Success",Toast.LENGTH_LONG).show();
-                                                delReq.setVisibility(View.INVISIBLE);
-                                                delReq.setEnabled(false);
                                             }
                                         });
-
                                     }
                                 });
                             }
@@ -179,8 +172,6 @@ public class ProfileActivity extends AppCompatActivity {
                                     sendReq.setEnabled(false);
                                     currentState = "not_friend";
                                     sendReq.setText("Send Friend Request");
-                                    delReq.setVisibility(View.INVISIBLE);
-                                    delReq.setEnabled(false);
                                 }
                             });
                         }
@@ -200,11 +191,8 @@ public class ProfileActivity extends AppCompatActivity {
                                             mDatabaseRefernece.child(user_id).child(mFirebaseUser.getUid()).child("date").removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                                                 @Override
                                                 public void onSuccess(Void aVoid) {
-                                                    sendReq.setEnabled(false);
                                                     currentState = "not_friend";
                                                     sendReq.setText("Send Friend Request");
-                                                    delReq.setVisibility(View.INVISIBLE);
-                                                    delReq.setEnabled(false);
                                                 }
                                             });
                                         }
@@ -217,6 +205,4 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }

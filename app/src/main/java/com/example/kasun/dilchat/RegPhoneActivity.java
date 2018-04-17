@@ -35,7 +35,7 @@ public class RegPhoneActivity extends AppCompatActivity {
     private LinearLayout mLayUser1,mLayPhone1;
     private EditText et_user1,et_phone1,et_verify1;
     private ProgressBar pro_verify1,pro_phone1;
-    private Button mSend1;
+    private Button mSend1,logPhone;
     private TextView txt;
     private CountryCodePicker ccp;
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mcallback;
@@ -55,6 +55,7 @@ public class RegPhoneActivity extends AppCompatActivity {
         pro_verify1 = (ProgressBar)findViewById(R.id.pro_verify);
 
         mSend1 = (Button)findViewById(R.id.mSend);
+        logPhone = (Button)findViewById(R.id.logPhone);
 
         txt = (TextView)findViewById(R.id.textView2);
 

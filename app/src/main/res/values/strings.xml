@@ -19,4 +19,6 @@
     <string name="requests">Requests</string>
     <string name="chats">Chats</string>
     <string name="friends">Friends</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
 </resources>

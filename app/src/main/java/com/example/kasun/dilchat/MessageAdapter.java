@@ -27,7 +27,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
     private FirebaseAuth fbAuth;
     private DatabaseReference mRoofRef;
     private final String[] nameUser = new String[1];
-    private String current_user_id;
+    private String current_user_id,time;
     public MessageAdapter(List<Messages> messagesList){
         this.messagesList = messagesList;
     }
@@ -54,7 +54,9 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
 
                 String name = dataSnapshot.child("name").getValue().toString();
                 String image = dataSnapshot.child("thumb_image").getValue().toString();
+                //time = dataSnapshot.child("time").getValue().toString();
                 holder.name.setText(name);
+                //holder.timeText.setText(time);
                 Picasso.with(holder.image.getContext()).load(image).placeholder(R.drawable.de).into(holder.image);
             }
             @Override
@@ -63,10 +65,13 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
         });
         if(message_type.equals("text")){
             holder.messageText.setText(c.getMessage());
-            holder.image.setVisibility(View.INVISIBLE);
+            holder.image.setVisibility(View.VISIBLE);
+            Picasso.with(holder.image.getContext()).load(c.getMessage()).placeholder(R.drawable.de).into(holder.image);
+            //holder.timeText.setText((int) c.getTime());
         }else{
           holder.messageText.setVisibility(View.INVISIBLE);
-          Picasso.with(holder.image.getContext()).load(c.getMessage()).placeholder(R.drawable.de).into(holder.image);
+
+
         }
         //holder.messageText.setText(c.getMessage());
         //holder.name.setText(current_user_id);

@@ -8,7 +8,7 @@ import android.widget.Button;
 
 
 public class StartActivity extends AppCompatActivity {
-    private Button mRegBtn,mStartBtn;
+    private Button mRegBtn,btnlog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +19,7 @@ public class StartActivity extends AppCompatActivity {
         mRegBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent reg_intent = new Intent(StartActivity.this,RegActivity.class);
+                Intent reg_intent = new Intent(StartActivity.this,RegPhoneActivity.class);
                 startActivity(reg_intent);
             }
         });

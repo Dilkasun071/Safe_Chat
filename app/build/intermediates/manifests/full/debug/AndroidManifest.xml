@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -22,6 +22,7 @@
     <uses-permission android:name="com.example.kasun.dilchat.permission.C2D_MESSAGE" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,6 +31,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        android:name="android.support.multidex.MultiDexApplication">
         <service android:name="com.example.kasun.dilchat.FirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -71,15 +73,25 @@
         <activity
             android:name="com.example.kasun.dilchat.chatActivity"
             android:parentActivityName="com.example.kasun.dilchat.MainActivity" />
+        <activity android:name="com.example.kasun.dilchat.RegPhoneActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <!--
- FirebaseMessagingService performs security checks at runtime,
+             FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -89,6 +101,20 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -131,14 +157,7 @@
             </intent-filter>
         </receiver>
         <!--
- Internal (not exported) receiver used by the app to start its own exported services
-             without risk of being spoofed.
-        -->
-        <receiver
-            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
-            android:exported="false" />
-        <!--
- FirebaseInstanceIdService performs security checks at runtime,
+             FirebaseInstanceIdService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -153,7 +172,13 @@
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.kasun.dilchat.firebaseinitprovider"
             android:exported="false"
-            android:initOrder="100" />
+            android:initOrder="100" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
         <provider
             android:name="android.arch.lifecycle.LifecycleRuntimeTrojanProvider"
             android:authorities="com.example.kasun.dilchat.lifecycle-trojan"

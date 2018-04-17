@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dilkasun071/Documents/DILChat2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

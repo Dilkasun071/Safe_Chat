@@ -11,7 +11,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/de" />
+        app:srcCompat="@drawable/de"
+        />
 
     <TextView
         android:id="@+id/usi_disname"
@@ -43,6 +44,7 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/usi_status"
         android:layout_toRightOf="@+id/usi_status"
-        app:srcCompat="@drawable/online" />
+        app:srcCompat="@drawable/online"
+        />
 
 </RelativeLayout>

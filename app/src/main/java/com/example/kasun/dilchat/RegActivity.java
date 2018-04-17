@@ -116,6 +116,7 @@ public class RegActivity extends AppCompatActivity {
                     FirebaseUser curretn_user = FirebaseAuth.getInstance().getCurrentUser();
                     //Current User's ID
                     String uid = curretn_user.getUid();
+
                     //Current Device's ID
                     String device_token = FirebaseInstanceId.getInstance().getToken();
                     //Database Reference

@@ -32,6 +32,7 @@ import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.squareup.picasso.Picasso;
 
 import org.w3c.dom.Text;
 
@@ -45,7 +46,7 @@ public class chatActivity extends AppCompatActivity {
     //Toolbar
     private Toolbar toolbar1;
     //Database Reference
-    private DatabaseReference mRoofRef;
+    private DatabaseReference mRoofRef,mR,mMsg;
     //Firebase Auth
     private FirebaseAuth mAuth;
     //TextView,ImageView
@@ -67,6 +68,8 @@ public class chatActivity extends AppCompatActivity {
     private int itempos = 0;
     private String mLastKey = "";
     private String mPrevKey = "";
+
+    private TextView message_time_layout;
 
     private final List<Messages> messagesList = new ArrayList<>();
     private LinearLayoutManager mlinerlayout;
@@ -90,6 +93,8 @@ public class chatActivity extends AppCompatActivity {
         actionBar.setDisplayShowCustomEnabled(true);
         //Firebase Database Reference
         mRoofRef = FirebaseDatabase.getInstance().getReference();
+        mR = FirebaseDatabase.getInstance().getReference().child("Users");
+        mMsg = FirebaseDatabase.getInstance().getReference().child("messages");
         //Firebase Author
         mAuth = FirebaseAuth.getInstance();
         //Get Intent
@@ -120,8 +125,26 @@ public class chatActivity extends AppCompatActivity {
         chat_add = (ImageView)findViewById(R.id.chat_add);
         chat_chat = (TextView)findViewById(R.id.chat_chat);
         chat_send = (ImageView)findViewById(R.id.chat_send);
+        message_time_layout = (TextView)findViewById(R.id.message_time_layout);
         //Set Text
         mTitleview.setText(userName);
+        mR.child(mChatUser).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+//eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrr
+                String userThumb = dataSnapshot.child("thumb_image").getValue().toString();
+                String name = dataSnapshot.child("name").getValue().toString();
+                mTitleview.setText(name);
+                Picasso.with(chatActivity.this).load(userThumb).placeholder(R.drawable.de).into(mProfile);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+                //mProfile
         //Load Message
         loadMessage();
         //start

@@ -37,7 +37,8 @@
         android:layout_marginBottom="66dp"
         android:background="@android:color/holo_green_light"
         android:onClick="login"
-        android:text="Already Have A Account" />
+        android:text="Already Have A Account"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView"
@@ -47,5 +48,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="11dp"
         android:layout_marginEnd="12dp"
-        android:text="Developed By Kdil" />
+        android:text="Developed By Kdil"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentRight="true" />
+
 </RelativeLayout>

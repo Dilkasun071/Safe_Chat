@@ -1,512 +1,686 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-MERGED from [com.google.firebase:firebase-core:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/b309d49905d4e16200ea9656309b9771/AndroidManifest.xml:2:1-6:12
-MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:17:1-31:12
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/59ecc9d446b6a9f2a6f0a1738e26a755/AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b52df179e9fbdaf9e4bb122ccc68924/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/04ad95da1ebaf46e77dc86bee09099c4/AndroidManifest.xml:16:1-21:12
-MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.firebase:firebase-database:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/79da7ce207502068d024ec34b6d881a1/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.firebase:firebase-storage:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.4.aar/4f69737cdfdc682bb435e01ffc48679f/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:16:1-35:12
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/b52a4fca8d5c749ca2e4242be5a22774/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:16:1-50:12
-MERGED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/7d5a9773d28b38bee9188b0a5866065c/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.0.4.aar/73f19658ce6130b128417f41ea44163a/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:17:1-31:12
-MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/99fa09894241731eda744fb7cc0ec70f/AndroidManifest.xml:2:1-12:12
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:17:1-34:12
-MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/1de11d5f52c856764a55ce0bda8205aa/AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/fcd7706c017ce8802881ad2015f7ffa4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:multidex:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/132c4fb87d11ab220443e1e5b1bdd2a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/efcb1afcf1cab116e5b375d268f63a6b/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fb2f8c4d8010f9cc3e3b37cd1ef50e47/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:17:1-32:12
+MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.1.aar/73ee86facebbe28facb2e4d97c321e7e/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/443041ab5a851e37393680ebb14743ac/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-12.0.1.aar/54a5c1491ad4bfa744c9fe5bc961e26d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-12.0.1.aar/02cf30da102a6b97c8b3aa38d6a5700e/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/31ff03613363be9fa83bb53f976d2486/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/6a2e8323d5be2c5681d4c39b51538939/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/57551cd171e15108d7f284448b270c12/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/e67873dd35ea4551d3ea548fea13d763/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/109624b26691509ca2a9c13cd2ef320b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:17:1-31:12
+MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/75810f91cdf7f67fad5a3ea952977a12/AndroidManifest.xml:2:1-12:12
+MERGED from [com.hbb20:ccp:2.1.9] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/ccp-2.1.9.aar/66d39b1429e4ac061960c223bdd60a69/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:17:1-34:12
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/292887a67e3f091ad525873e8fd0c781/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.1.aar/89af2ecdeedb0afe981f9c5928f050ea/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/84b9b73e1825747e5786991f59d78475/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.1.aar/b555e7783554f607b7c0bb4cc5affe8d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/01085ff6e2b6f42342b072dcf35b2be8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/80f8d3a6cb906f24ed5063f8e1abf469/AndroidManifest.xml:17:1-24:12
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/a3dc75a00ad0a3471d5bfb41199e69f4/AndroidManifest.xml:2:1-13:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.8.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/libphonenumber-android-8.8.5.aar/71d96dbd7be04dc358f92e3b05e974cd/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/95e6f501c8c603bbc0e142224a146bec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61385c23560dba285522c0adec8015e5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/2aab326dc39f6e1901a6883cf5864b87/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f19aa50779203fe1680e21e73dce9731/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/6ad8d389c9b39c0471de7eca1f0aff74/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.1.aar/6dc3df885f188d125f24720b5cd36612/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/33565e61f32fc654724b75da51aa9519/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/959319404d6474e7d6ab356c6c1cd9b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/20d902664a3739d5d41544d40e798864/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-12.0.1.aar/314e312801282ca5a25ee868d27641db/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-12.0.1.aar/b4397ce413e17bb972b04ae131fdce37/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/655201eb3690bd6068e2a71b125cfcca/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/584a4e8277a02f72bbd0dd344babd167/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:1-57:12
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:1-60:12
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:6:5-81
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:8:5-55:19
-MERGED from [com.google.firebase:firebase-core:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/b309d49905d4e16200ea9656309b9771/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/b309d49905d4e16200ea9656309b9771/AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b52df179e9fbdaf9e4bb122ccc68924/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b52df179e9fbdaf9e4bb122ccc68924/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/04ad95da1ebaf46e77dc86bee09099c4/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/04ad95da1ebaf46e77dc86bee09099c4/AndroidManifest.xml:19:5-20:19
-MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:13:5-17:19
-MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:13:5-17:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/7d5a9773d28b38bee9188b0a5866065c/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/7d5a9773d28b38bee9188b0a5866065c/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:26:5-32:19
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:26:5-32:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:24:5-28:19
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:8:5-58:19
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/fcd7706c017ce8802881ad2015f7ffa4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/fcd7706c017ce8802881ad2015f7ffa4/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fb2f8c4d8010f9cc3e3b37cd1ef50e47/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fb2f8c4d8010f9cc3e3b37cd1ef50e47/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:22:5-30:19
+MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:13:5-17:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/57551cd171e15108d7f284448b270c12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/57551cd171e15108d7f284448b270c12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/109624b26691509ca2a9c13cd2ef320b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/109624b26691509ca2a9c13cd2ef320b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.hbb20:ccp:2.1.9] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/ccp-2.1.9.aar/66d39b1429e4ac061960c223bdd60a69/AndroidManifest.xml:11:5-15:19
+MERGED from [com.hbb20:ccp:2.1.9] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/ccp-2.1.9.aar/66d39b1429e4ac061960c223bdd60a69/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:22:5-26:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:26:5-32:19
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:26:5-32:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.1.aar/89af2ecdeedb0afe981f9c5928f050ea/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.1.aar/89af2ecdeedb0afe981f9c5928f050ea/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/84b9b73e1825747e5786991f59d78475/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/84b9b73e1825747e5786991f59d78475/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.1.aar/b555e7783554f607b7c0bb4cc5affe8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.1.aar/b555e7783554f607b7c0bb4cc5affe8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/01085ff6e2b6f42342b072dcf35b2be8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/01085ff6e2b6f42342b072dcf35b2be8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/80f8d3a6cb906f24ed5063f8e1abf469/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/80f8d3a6cb906f24ed5063f8e1abf469/AndroidManifest.xml:22:5-20
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/a3dc75a00ad0a3471d5bfb41199e69f4/AndroidManifest.xml:11:5-20
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/a3dc75a00ad0a3471d5bfb41199e69f4/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/95e6f501c8c603bbc0e142224a146bec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/95e6f501c8c603bbc0e142224a146bec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61385c23560dba285522c0adec8015e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61385c23560dba285522c0adec8015e5/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/2aab326dc39f6e1901a6883cf5864b87/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/2aab326dc39f6e1901a6883cf5864b87/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f19aa50779203fe1680e21e73dce9731/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f19aa50779203fe1680e21e73dce9731/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/6ad8d389c9b39c0471de7eca1f0aff74/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/6ad8d389c9b39c0471de7eca1f0aff74/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.1.aar/6dc3df885f188d125f24720b5cd36612/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.1.aar/6dc3df885f188d125f24720b5cd36612/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/33565e61f32fc654724b75da51aa9519/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/33565e61f32fc654724b75da51aa9519/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/959319404d6474e7d6ab356c6c1cd9b7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/959319404d6474e7d6ab356c6c1cd9b7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/20d902664a3739d5d41544d40e798864/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/20d902664a3739d5d41544d40e798864/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-12.0.1.aar/314e312801282ca5a25ee868d27641db/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-12.0.1.aar/314e312801282ca5a25ee868d27641db/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-12.0.1.aar/b4397ce413e17bb972b04ae131fdce37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-12.0.1.aar/b4397ce413e17bb972b04ae131fdce37/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/655201eb3690bd6068e2a71b125cfcca/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/655201eb3690bd6068e2a71b125cfcca/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/584a4e8277a02f72bbd0dd344babd167/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/584a4e8277a02f72bbd0dd344babd167/AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:14:9-40
 service#com.example.kasun.dilchat.FirebaseMessagingService
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:15:9-19:19
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:16:9-20:19
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:15:18-58
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:16:18-58
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:16:13-18:29
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:17:13-19:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:17:17-78
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:18:17-78
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:17:25-75
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:18:25-75
 activity#com.example.kasun.dilchat.StartActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:21:9-51
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:22:19-48
 activity#com.example.kasun.dilchat.RegActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:22:9-24:59
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:23:9-25:59
 	android:parentActivityName
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:24:13-56
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:23:13-40
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:24:13-40
 activity#com.example.kasun.dilchat.LoginActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:25:9-51
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:26:9-51
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:25:19-48
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:26:19-48
 activity#com.example.kasun.dilchat.MainActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:26:9-35:20
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:27:9-36:20
 	android:label
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:28:13-38
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:29:13-38
 	android:theme
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:29:13-44
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:30:13-44
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:34:27-74
 activity#com.example.kasun.dilchat.SettingActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:36:9-53
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:37:9-53
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:36:19-50
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:37:19-50
 activity#com.example.kasun.dilchat.StatusActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:37:9-39:61
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:38:9-40:61
 	android:parentActivityName
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:39:13-58
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:40:13-58
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:38:13-43
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:39:13-43
 activity#com.example.kasun.dilchat.UserActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:40:9-42:58
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:41:9-43:58
 	android:parentActivityName
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:42:13-55
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:43:13-55
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:41:13-41
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:42:13-41
 activity#com.example.kasun.dilchat.ProfileActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:43:9-49:20
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:44:9-50:20
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:43:19-50
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:44:19-50
 intent-filter#action:name:com.example.kasun.dilchat+category:name:android.intent.category.DEFAULT
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:45:13-49:29
 action#com.example.kasun.dilchat
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:45:17-68
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:46:17-68
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:45:25-65
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:46:25-65
 category#android.intent.category.DEFAULT
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:47:17-76
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:48:17-76
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:47:27-73
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:48:27-73
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:50:9-52:59
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:51:9-53:59
 	android:theme
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:52:13-56
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:51:13-76
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:52:13-76
 activity#com.example.kasun.dilchat.chatActivity
-ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:53:9-54:67
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:54:9-56:58
 	android:parentActivityName
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:54:13-55
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:56:13-55
 	android:name
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml:53:19-47
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:55:13-41
+activity#com.example.kasun.dilchat.RegPhoneActivity
+ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:57:9-63
+	android:name
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml:57:19-51
 uses-sdk
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-core:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/b309d49905d4e16200ea9656309b9771/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/b309d49905d4e16200ea9656309b9771/AndroidManifest.xml:4:5-43
-MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:21:5-23:62
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/59ecc9d446b6a9f2a6f0a1738e26a755/AndroidManifest.xml:8:5-10:41
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/59ecc9d446b6a9f2a6f0a1738e26a755/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b52df179e9fbdaf9e4bb122ccc68924/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0b52df179e9fbdaf9e4bb122ccc68924/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/04ad95da1ebaf46e77dc86bee09099c4/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/04ad95da1ebaf46e77dc86bee09099c4/AndroidManifest.xml:17:5-43
-MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-database:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/79da7ce207502068d024ec34b6d881a1/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/79da7ce207502068d024ec34b6d881a1/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.4.aar/4f69737cdfdc682bb435e01ffc48679f/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.0.4.aar/4f69737cdfdc682bb435e01ffc48679f/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/b52a4fca8d5c749ca2e4242be5a22774/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/b52a4fca8d5c749ca2e4242be5a22774/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/7d5a9773d28b38bee9188b0a5866065c/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/7d5a9773d28b38bee9188b0a5866065c/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.0.4.aar/73f19658ce6130b128417f41ea44163a/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.0.4.aar/73f19658ce6130b128417f41ea44163a/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:21:5-23:54
-MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/99fa09894241731eda744fb7cc0ec70f/AndroidManifest.xml:8:5-10:41
-MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/99fa09894241731eda744fb7cc0ec70f/AndroidManifest.xml:8:5-10:41
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/1de11d5f52c856764a55ce0bda8205aa/AndroidManifest.xml:22:5-24:41
-MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/1de11d5f52c856764a55ce0bda8205aa/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/fcd7706c017ce8802881ad2015f7ffa4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/fcd7706c017ce8802881ad2015f7ffa4/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/132c4fb87d11ab220443e1e5b1bdd2a6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/132c4fb87d11ab220443e1e5b1bdd2a6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/efcb1afcf1cab116e5b375d268f63a6b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.0.aar/efcb1afcf1cab116e5b375d268f63a6b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fb2f8c4d8010f9cc3e3b37cd1ef50e47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/fb2f8c4d8010f9cc3e3b37cd1ef50e47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.1.aar/73ee86facebbe28facb2e4d97c321e7e/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-12.0.1.aar/73ee86facebbe28facb2e4d97c321e7e/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/443041ab5a851e37393680ebb14743ac/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-12.0.1.aar/443041ab5a851e37393680ebb14743ac/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-12.0.1.aar/54a5c1491ad4bfa744c9fe5bc961e26d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-12.0.1.aar/54a5c1491ad4bfa744c9fe5bc961e26d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-12.0.1.aar/02cf30da102a6b97c8b3aa38d6a5700e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-12.0.1.aar/02cf30da102a6b97c8b3aa38d6a5700e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/31ff03613363be9fa83bb53f976d2486/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-12.0.1.aar/31ff03613363be9fa83bb53f976d2486/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/6a2e8323d5be2c5681d4c39b51538939/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-12.0.1.aar/6a2e8323d5be2c5681d4c39b51538939/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/57551cd171e15108d7f284448b270c12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-12.0.1.aar/57551cd171e15108d7f284448b270c12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/e67873dd35ea4551d3ea548fea13d763/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-12.0.1.aar/e67873dd35ea4551d3ea548fea13d763/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/109624b26691509ca2a9c13cd2ef320b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-12.0.1.aar/109624b26691509ca2a9c13cd2ef320b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:21:5-23:54
+MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/75810f91cdf7f67fad5a3ea952977a12/AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/compressor-2.0.0.aar/75810f91cdf7f67fad5a3ea952977a12/AndroidManifest.xml:8:5-10:41
+MERGED from [com.hbb20:ccp:2.1.9] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/ccp-2.1.9.aar/66d39b1429e4ac061960c223bdd60a69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hbb20:ccp:2.1.9] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/ccp-2.1.9.aar/66d39b1429e4ac061960c223bdd60a69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/292887a67e3f091ad525873e8fd0c781/AndroidManifest.xml:22:5-24:41
+MERGED from [android.arch.core:runtime:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0-alpha8.aar/292887a67e3f091ad525873e8fd0c781/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.1.aar/89af2ecdeedb0afe981f9c5928f050ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-12.0.1.aar/89af2ecdeedb0afe981f9c5928f050ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/84b9b73e1825747e5786991f59d78475/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-license-12.0.1.aar/84b9b73e1825747e5786991f59d78475/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.1.aar/b555e7783554f607b7c0bb4cc5affe8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-12.0.1.aar/b555e7783554f607b7c0bb4cc5affe8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/01085ff6e2b6f42342b072dcf35b2be8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-12.0.1.aar/01085ff6e2b6f42342b072dcf35b2be8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/80f8d3a6cb906f24ed5063f8e1abf469/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-12.0.1.aar/80f8d3a6cb906f24ed5063f8e1abf469/AndroidManifest.xml:20:5-44
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/a3dc75a00ad0a3471d5bfb41199e69f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/fastscroll-0.2.5.aar/a3dc75a00ad0a3471d5bfb41199e69f4/AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.8.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/libphonenumber-android-8.8.5.aar/71d96dbd7be04dc358f92e3b05e974cd/AndroidManifest.xml:8:5-10:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.8.5] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/libphonenumber-android-8.8.5.aar/71d96dbd7be04dc358f92e3b05e974cd/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/95e6f501c8c603bbc0e142224a146bec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-12.0.1.aar/95e6f501c8c603bbc0e142224a146bec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61385c23560dba285522c0adec8015e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-license-12.0.1.aar/61385c23560dba285522c0adec8015e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/2aab326dc39f6e1901a6883cf5864b87/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-12.0.1.aar/2aab326dc39f6e1901a6883cf5864b87/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f19aa50779203fe1680e21e73dce9731/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-license-12.0.1.aar/f19aa50779203fe1680e21e73dce9731/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/6ad8d389c9b39c0471de7eca1f0aff74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-12.0.1.aar/6ad8d389c9b39c0471de7eca1f0aff74/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.1.aar/6dc3df885f188d125f24720b5cd36612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-12.0.1.aar/6dc3df885f188d125f24720b5cd36612/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/33565e61f32fc654724b75da51aa9519/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-12.0.1.aar/33565e61f32fc654724b75da51aa9519/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/959319404d6474e7d6ab356c6c1cd9b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-12.0.1.aar/959319404d6474e7d6ab356c6c1cd9b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/20d902664a3739d5d41544d40e798864/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-12.0.1.aar/20d902664a3739d5d41544d40e798864/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-12.0.1.aar/314e312801282ca5a25ee868d27641db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-12.0.1.aar/314e312801282ca5a25ee868d27641db/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-12.0.1.aar/b4397ce413e17bb972b04ae131fdce37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-12.0.1.aar/b4397ce413e17bb972b04ae131fdce37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/655201eb3690bd6068e2a71b125cfcca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-12.0.1.aar/655201eb3690bd6068e2a71b125cfcca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/584a4e8277a02f72bbd0dd344babd167/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-12.0.1.aar/584a4e8277a02f72bbd0dd344babd167/AndroidManifest.xml:20:5-44
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		ADDED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/dilkasun071/Documents/DILChat2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		ADDED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dilkasun071/Documents/After April 10 Update/Safe Chat/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17018ca3b5f5a665a63616d808119e51/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/628ec1b738da4059d111ee3c9c61ff5f/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/72721491a38fb84768de3152c70ba570/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/a4068197d62eb2185c69bf13aeee7d49/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/9de182eeb863d06aa019c9ae4f66d3cd/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/20d05c6beb3f1fd19ed206561a749ba7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/ae7c06c610707e61aae9fd0db10bacd0/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/43cc93f040a6f8e686a5eab8af9a8956/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/2a7034708816c3a818fecdea4b48194c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/52be4d5e4983dd5fffb83976f0665f0a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/b3afcf6e7d1c641741791ed054593eb0/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/9bebd636bec981ad2db69dbb98cf1d4f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/d004ea065d550f232d8360c0f39e8621/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/137ce6458aac577ed919cd0aef2174e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/302f59b8dc985d1f7336c1973729f32a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d58ba5620d9aa5fbe9c75ad757d4243c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/45925f08680d1b52407e5030c7e9de95/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/b6df559463bb98fae0e011873e5a2622/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a963d21f01af9163bd883fa984b16ce1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5386eef6e0836fdffd7c77f0125acdda/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/bbfc3e7658476f7dcf151159935fd691/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6bd3af9c6e389a6102990b834f465d2/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2e3c3b6dc164bc5ce36a70ec8888fd3d/AndroidManifest.xml:27:13-51
-uses-permission#android.permission.INTERNET
-ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:11:22-64
-meta-data#com.google.android.gms.version
-ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:14:9-16:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:20:9-121
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/0b08554cbcda2ef95742fcbb770c39f2/AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:16:13-66
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/f915144d1768c027ef831f51207a0219/AndroidManifest.xml:15:13-58
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:23:9-27:19
+		ADDED from [com.android.support:design:26.1.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/f5cd8638c0761fdda47f30a3220d598b/AndroidManifest.xml:27:13-51
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:27:13-48
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:23:88-111
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/7d25b210a6bec92e3668f2319f97e78d/AndroidManifest.xml:23:18-87
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:21:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:21:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:22:22-65
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:25:7-26:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:25:90-112
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:25:113-137
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:27:162-184
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:26:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:27:17-104
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/4c9c22aaed5b92f4585c964144e5fe2a/AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:32:16-87
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:33:7-197
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:33:148-170
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:33:171-195
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:33:91-147
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/a452843bed9574280782a367fbc60eb8/AndroidManifest.xml:33:16-90
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:28:13-102
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:29:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/558df17ad016cb8cf6f3bf18838bba19/AndroidManifest.xml:19:19-85
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:22:5-81
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-auth-12.0.1.aar/698d4fabe606fa004778180774351e55/AndroidManifest.xml:24:13-85
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:22:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:17-71
-permission#com.example.kasun.dilchat.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:24:17-71
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:26:22-76
-uses-permission#com.example.kasun.dilchat.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:26:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:30:9-35:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:30:85-108
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:30:109-169
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:30:19-84
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:31:13-34:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.kasun.dilchat
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:31:13-34:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:32:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:32:25-78
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:33:17-60
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:33:27-58
-category#com.example.kasun.dilchat
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:33:17-60
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:33:27-58
-receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:39:9-119
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:39:93-117
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:39:19-92
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:43:9-47:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:43:83-106
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:43:18-82
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:44:13-46:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:44:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:45:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/8c448a84f3e8f61caaf2bdb1eec2dd8b/AndroidManifest.xml:45:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:6:9-194
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:6:19-78
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:6:144-168
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:6:169-192
-	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-11.0.4.aar/8d066aee08c8cf8ca8c2ad27277508c7/AndroidManifest.xml:6:79-143
-provider#android.arch.lifecycle.LifecycleRuntimeTrojanProvider
-ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:27:9-31:43
-	android:authorities
-		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:29:13-68
-	android:multiprocess
-		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:31:13-40
-	android:exported
-		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/036ff934a815ad7e737884d0da40519b/AndroidManifest.xml:28:13-81
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:25:9-27:47
+		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:11:22-64
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/8746f96b0bf8b9aedf0f505c8d1f902a/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:27:13-44
+		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:16:13-66
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2b74886cd24c2ebe160d06aa333ac2eb/AndroidManifest.xml:26:13-58
+		ADDED from [com.firebaseui:firebase-ui-database:2.3.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-ui-database-2.3.0.aar/6ab4c56fcd3be4477e9028a990eb8bdb/AndroidManifest.xml:15:13-58
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/8564cbc6e0bc4ddd40e2a87b488c489c/AndroidManifest.xml:29:13-82
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/d3e3e6143a8aeb4fba7d77ccee8cde30/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/ffa5ad05b0c384fc1dbfb4d9a81b92e2/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/d8369b18e099cb1b0ae2b06fb20091eb/AndroidManifest.xml:48:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-base-12.0.1.aar/4aee10932acabc57ec0264a325c4cd12/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:29:9-63
+permission#com.example.kasun.dilchat.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:32:22-76
+uses-permission#com.example.kasun.dilchat.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.kasun.dilchat
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:42:27-58
+category#com.example.kasun.dilchat
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/82e8ee8d99d41db62f69dc93e31809e6/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/firebase-common-12.0.1.aar/cfe3d4bb9e676c735e1805470c3f3881/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-12.0.1.aar/d0f06c1862c7ed3c27e1e881d9ef45bc/AndroidManifest.xml:30:13-65
+provider#android.arch.lifecycle.LifecycleRuntimeTrojanProvider
+ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:27:9-31:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:29:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:31:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.0.0-alpha8] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/extensions-1.0.0-alpha8.aar/29cf0bbc9a8c06ed66711d681c519530/AndroidManifest.xml:28:13-81
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dilkasun071/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e340f9cc9a2463c603601abf5e957458/AndroidManifest.xml:26:13-58

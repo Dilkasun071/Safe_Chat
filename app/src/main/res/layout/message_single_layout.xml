@@ -49,6 +49,8 @@
         android:layout_toEndOf="@+id/message_disname_layout"
         android:layout_toRightOf="@+id/message_disname_layout"
         android:text="00.00"
-        android:textSize="8sp" />
+        android:textSize="8sp"
+        android:visibility="invisible"
+        android:layout_marginLeft="10dp" />
 
 </RelativeLayout>

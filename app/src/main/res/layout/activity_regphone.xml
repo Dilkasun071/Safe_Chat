@@ -81,4 +81,14 @@
         android:text="TextView"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="135dp" />
+
+    <Button
+        android:id="@+id/logPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/mSend"
+        android:layout_marginTop="-79dp"
+        android:text="Log"
+        android:layout_alignLeft="@+id/textView2" />
 </RelativeLayout>
